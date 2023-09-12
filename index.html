@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-space-between">
+        <img src="https://res.cloudinary.com/ddqrzz4nx/image/upload/v1694494238/download_1_lga6gf.png" alt="shopify" class="logo"/>
+        
+        <a href="" class="d-md-none">Start free trail</a>
+        <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav  ml-auto d-md-none">
+                <a class="nav-link active nav-line text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link nav-line text-white" href="#">Why choose us?</a>
+                <a class="nav-link nav-line text-white" href="#">Explore Our Menu</a>
+                <a class="nav-link nav-line text-white" href="#">Delivery & Payment</a>
+                <a class="nav-link nav-line text-white" href="#">Follow Us</a>
+
+            </div>
+        </div>
+        
+        <div class="collapse navbar-collapse d-none d-lg-inline" id="navbarNavAltMarkup">
+            <div class="navbar-nav  pl-3">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Solutions
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                <a class="nav-link nav-line text-white pt-3" href="#">Pricing</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+
+            </div>
+        </div>
+        <div class="d-none d-md-inline">
+            <button class="btn btn-sccess-outline text-light">Login</button>
+            <button class="button">Start free trial</button>
+        </div>
+    </nav>
+    
+    <div class="d-flex flex-row justify-content-center d-md-none">
+        <button  class="p-3 button " onclick="btn1()" type="button">
+            Basic
+        </button>
+        <button o class="p-3 button" onclick="btn2()" type="button">
+            Shopify
+        </button>
+        <button class="p-3 button" onclick="btn3()" type="button">
+            Advanced
+        </button>
+    </div>
+
+
+    <div class="bg-container" >
+        <div class="text-center pt-5">
+            <button class="button">Pay Monthly</button>
+            <button class="btn btn-outline-dark">Pay Yearly(save25%)</button>
+        </div>
+    <div class="main-container">
+    <div class="card-container active shadow" id="card1">
+    <h1>Basic</h1>
+    <p class="para">FOR INDIVIDUAL AND SMALL BUSINESSES</p>
+    <P>Everything you need to create your store, ship products, and process payments</P>
+    <h1 class="text p-3"><span class="head">₹1,994</span>INR/mo</h1>
+    <div class="container">
+        <p class="container-text">Get your first 3 months for ₹20/mo</p>
+    </div>
+    <ul class="mt-5 mb-4">
+        <h1 class="ul-text">What's included on Basic</h1>
+        <li>
+            <i class="fa fa-check icon" aria-hidden="true"></i>
+            <p class="ml-3">Basic reports</p>
+        </li>
+        <li>
+            <i class="fa fa-check icon" aria-hidden="true"></i>
+            <p class="ml-3">Up to 1,000 inventory locations</p>
+        </li>
+        <li>
+            <i class="fa fa-check icon" aria-hidden="true"></i>
+            <p class="ml-3">2 staff accounts</p>
+        </li>
+    </ul>
+    <div class="text-center">
+        <button class="button2">Try for free</button>
+    </div>
+    </div>
+
+    <div class="card-container shadow d-none d-md-inline" id="card2">
+        <h1>Shopify</h1>
+        <p  class="para">FOR SMALL BUSINESSES</p>
+        <P>Everything you need to create your store, ship products, and process payments</P>
+        <h1 class="text p-3"><span class="head">₹7,447</span>INR/mo</h1>
+        <div class="container">
+            <p class="container-text">Get your first 3 months for ₹20/mo</p>
+        </div>
+        <ul class="mt-5 mb-4">
+            <h1 class="ul-text">What's included on Shopify</h1>
+            <li>
+                <i class="fa fa-check icon" aria-hidden="true"></i>
+                <p class="ml-3">Professional reports</p>
+            </li>
+            <li>
+                <i class="fa fa-check icon" aria-hidden="true"></i>
+                <p class="ml-3">Up to 1,000 inventory locations</p>
+            </li>
+            <li>
+                <i class="fa fa-check icon" aria-hidden="true"></i>
+                <p class="ml-3">5 staff accounts</p>
+            </li>
+        </ul>
+        <div class="text-center">
+            <button class="button2">Try for free</button>
+        </div>
+        </div>
+
+        <div class="card-container shadow d-none d-md-inline" id="card3">
+            <h1>Advanced</h1>
+            <p class="para">FOR MEDIUM TO LARGE BUSINESSES</p>
+            <P>Everything you need tocreate your store, ship products, and process payments</P>
+            <h1 class="text p-3"><span class="head">₹30,164</span>INR/mo</h1>
+            <div class="container">
+                <p class="container-text">Get your first 3 months for ₹20/mo</p>
+            </div>
+            <ul class="mt-5 mb-4">
+                <h1 class="ul-text">What's included on Advanced</h1>
+                <li>
+                    <i class="fa fa-check icon" aria-hidden="true"></i>
+                    <p class="ml-3">Custom report builder</p>
+                </li>
+                <li>
+                    <i class="fa fa-check icon" aria-hidden="true"></i>
+                    <p class="ml-3">Up to 1,000 inventory locations</p>
+                </li>
+                <li>
+                    <i class="fa fa-check icon" aria-hidden="true"></i>
+                    <p class="ml-3">15 staff accounts</p>
+                </li>
+            </ul>
+            <div class="text-center">
+                <button class="button2">Try for free</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+   
+</body>
+</html>
